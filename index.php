@@ -1,0 +1,9 @@
+<?php include('comtop.php'); ?>
+<?php include('header.php'); ?>
+<?php include('menu.php'); ?>
+<?php include('banner.php'); ?>
+<?php include('serve.php'); ?>
+<?php include('new.php'); ?>
+<?php include('social_new.php'); ?>
+<?php include('footer.php'); ?>
+<?php include('combootom.php'); ?>

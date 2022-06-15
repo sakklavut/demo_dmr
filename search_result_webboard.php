@@ -1,0 +1,193 @@
+<?php include('comtop.php'); ?>
+<?php include('header.php'); ?>
+<?php include('menu.php'); ?>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12  mt-2">
+             <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                                <a href="#"><i class="fa fa-home icon_home" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="breadcrumb-item " aria-current="page">กระดานถามตอบ</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="alert alert-primary" role="alert">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h2>กรอกคำค้น</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <form action="">
+                             <input name="#" class="form-control col-12" type="text" placeholder="กรอกคำค้นที่นี่">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                      <button type="button" class="btn btn-success w-25 m-2"><i class="fa fa-search" aria-hidden="true"></i> ค้นหา</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+            <h5>ผลการคันหา "หิน Chert หรือ Flint "พบทั้งหมด 1500 รายการ</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+            <h2>กระดานถามตอบ</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+            <button type="button" data-toggle="modal" data-target="#wb" class="btn btn-warning bg_btn_event text-white p-1"><i class="fas fa-comments"></i> ตั้งกระทู้ใหม่</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">หมวดของกระทู้</th>
+                        <th scope="col">จำนวนกระทู้</th>
+                        <th scope="col">จำนวนผู้ตอบ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fas fa-folder-open"></i> ถาม-ตอบ กรมทรัพยากรธรณี ถาม-ตอบ กรมทรัพยากรธรณี</td>
+                        <td><i class="fas fa-eye"></i> 12 </td>
+                        <td><i class="fas fa-comment-dots"></i> 1</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-folder-open"></i> ถาม-ตอบ กรมทรัพยากรธรณี ถาม-ตอบ กรมทรัพยากรธรณี</td>
+                        <td><i class="fas fa-eye"></i> 12 </td>
+                        <td><i class="fas fa-comment-dots"></i> 1</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-folder-open"></i> ถาม-ตอบ กรมทรัพยากรธรณี ถาม-ตอบ กรมทรัพยากรธรณี</td>
+                        <td><i class="fas fa-eye"></i> 12 </td>
+                        <td><i class="fas fa-comment-dots"></i> 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12 mt-2">
+             <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                     <a class="page-link text_page">หน้าแรก</a>
+                    </li>
+                    <li class="page-item text_page active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item" aria-current="page">
+                         <a class="page-link text_page" href="#">2</a>
+                    </li>
+                    <li class="page-item text_page">
+                         <a class="page-link text_page" href="#">3</a>
+                    <li class="page-item">
+                        <a class="page-link text_page" href="#">หน้าสุดท้าย</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="wb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ตั้งคำถามหรือเปิดประเด็นใหม่ตรงนี้</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <div class="alert alert-primary" role="alert">
+                        กรุณาแสดงความคิดเห็นอย่างสร้างสรรค์ หน่วยงานจะไม่รับผิดชอบต่อความคิดเห็นใดๆ ทั้งสิ้น เพราะไม่สามารถระบุได้ว่าเป็นความจริง ผู้อ่านจึงควรใช้วิจารณญาณในการกลั่นกรอง
+                        หรือถ้าท่านพบเห็นข้อความใดที่ขัดต่อกฎหมายและศีลธรรม หรือเป็นการกลั่นแกล้งเพื่อให้เกิดความเสียหาย
+                        ต่อบุคคล หรือหน่วยงานใด กรุณาแจ้งมาที่ ผู้ดูแลระบบ เพื่อให้ระบบทราบและทำการลบข้อความนั้น ออกจากระบบต่อไป ขอขอบพระคุณล่วงหน้า มา ณ โอกาสนี้
+                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <form>
+                        <div class="form-group row">
+                            <label for="#" class="col-sm-2 col-form-label text-center">หัวข้อกระทู้*</label>
+                            <div class="col-sm-10">
+                            <input type="text" class="form-control" id="#" placeholder="หัวข้อกระทู้">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="#" class="col-sm-2 col-form-label text-center">รายละเอียด*</label>
+                            <div class="col-sm-10">
+                                <textarea name="#" class="form-control" rows="3" placeholder="รายละเอียด" required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="#" class="col-sm-2 col-form-label text-center">โดย*</label>
+                            <div class="col-sm-10">
+                            <input type="text" class="form-control" id="#" placeholder="โดย">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="#" class="col-sm-2 col-form-label text-center">Email*</label>
+                            <div class="col-sm-10">
+                             <input type="email" class="form-control" id="#" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="#" class="col-sm-2 col-form-label text-center">ความปลอดภัย*</label>
+                            <div class="col-sm-10">
+                                <img class="img-fluid" src="images/ewt_picmain.png" alt="">
+                                <div class="mt-2"> คลิกเพื่อเปลี่ยนรูป <a href="#"><i class="fas fa-undo-alt"></i> </a> </div>
+                                <input type="text" class="form-control" id="#" placeholder="กรอกรหัสความปลอดภัย">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                <div class="alert alert-danger alert-dismissible fade show text-center mt-2" role="alert">
+                                    <small>กรุณาตรวจสอบรหัสความปลอดภัยของท่านให้ถูกต้องค่ะ!</small>
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                </div>	  
+                            </div>          
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">ยกเลิก</button>
+        <button type="button" class="btn btn-primary bg_btn_event">ตั้งกระทู้ใหม่</button>
+      </div>
+    </div>
+  </div>
+</div>
+<?php include('footer.php'); ?>
+<?php include('combootom.php'); ?>  
